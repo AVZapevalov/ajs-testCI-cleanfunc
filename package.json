@@ -1,0 +1,32 @@
+{
+  "name": "ajs-testci-cleanfunc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVZapevalov/ajs-testCI-cleanfunc.git"
+  },
+  "author": "alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVZapevalov/ajs-testCI-cleanfunc/issues"
+  },
+  "homepage": "https://github.com/AVZapevalov/ajs-testCI-cleanfunc#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.33.1"
+  }
+}
