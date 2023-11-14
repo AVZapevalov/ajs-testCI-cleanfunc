@@ -9,3 +9,6 @@ install:
 build: off
 test_script:
   - npm run lint && npm test # скрипт сборки
+build_script:
+  - npm install
+  - npm run build
