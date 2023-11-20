@@ -1,7 +1,7 @@
 import getHealthStatus from '../getHealthStatus';
 
 test('getHealthStatus returns "healthy" when health is greater than 50', () => {
-  const result = getHealthStatus({ name: 'Маг', health: 60 });
+  const result = getHealthStatus({ name: 'Magicain', health: 60 });
   expect(result).toBe('healthy');
 });
 
